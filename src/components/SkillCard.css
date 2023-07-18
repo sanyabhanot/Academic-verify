@@ -1,0 +1,42 @@
+.delete-button-skill {
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+  }
+  
+  .delete-button-skill:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .skill-des {
+    background: #393b3fa6 !important;
+    border-radius: 7px !important;
+    border: 1px solid white !important;
+    color: white !important;
+    width: 100% !important;
+    margin-bottom: 12px !important;
+  }
+  
+  .skill-des > .content > div > .header {
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap !important;
+    color: white !important;
+  }
+  
+  .skillcard_container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .skillcard_container > div:nth-child(2) {
+    margin-top: 25px;
+  }
