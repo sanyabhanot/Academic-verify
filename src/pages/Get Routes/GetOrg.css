@@ -1,0 +1,39 @@
+.org-card {
+    width: 70% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background: #393b3fa6 !important;
+    border-radius: 7px !important;
+    border: 1px solid white !important;
+    box-shadow: 2px 0px 3px 1px white !important;
+    color: white !important;
+  }
+  
+  .add-employee {
+    padding: 10px;
+    float: right;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #393b3fa6;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px #c5c6c7;
+    cursor: pointer;
+    margin-top: 16px;
+    color: white;
+    padding-bottom: 12px;
+    margin-top: -5px;
+  }
+  
+  .add-employee:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: inset 0px 0px 20px white;
+  }
+  
+  .org-card-heading {
+    font-family: "Arvo", serif !important;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+  }
