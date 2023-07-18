@@ -1,0 +1,3229 @@
+{
+  "contractName": "Skills",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_name",
+          "type": "string"
+        },
+        {
+          "internalType": "address",
+          "name": "_employee",
+          "type": "address"
+        }
+      ],
+      "name": "addEmployeeToSkill",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getSkillLength",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "index",
+          "type": "uint256"
+        }
+      ],
+      "name": "getSkillsByIndex",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "index",
+          "type": "uint256"
+        }
+      ],
+      "name": "getTotalEmployeeInSkillByIndex",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_name",
+          "type": "string"
+        }
+      ],
+      "name": "getTotalEmployeeInSkillByName",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "skill_index",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "emp_index",
+          "type": "uint256"
+        }
+      ],
+      "name": "getEmployeeInSkillByIndex",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_name",
+          "type": "string"
+        },
+        {
+          "internalType": "uint256",
+          "name": "emp_index",
+          "type": "uint256"
+        }
+      ],
+      "name": "getEmployeeBySkillName",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"string\",\"name\":\"_name\",\"type\":\"string\"},{\"internalType\":\"address\",\"name\":\"_employee\",\"type\":\"address\"}],\"name\":\"addEmployeeToSkill\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"string\",\"name\":\"_name\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"emp_index\",\"type\":\"uint256\"}],\"name\":\"getEmployeeBySkillName\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"skill_index\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"emp_index\",\"type\":\"uint256\"}],\"name\":\"getEmployeeInSkillByIndex\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getSkillLength\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"index\",\"type\":\"uint256\"}],\"name\":\"getSkillsByIndex\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"index\",\"type\":\"uint256\"}],\"name\":\"getTotalEmployeeInSkillByIndex\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"string\",\"name\":\"_name\",\"type\":\"string\"}],\"name\":\"getTotalEmployeeInSkillByName\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/Skills.sol\":\"Skills\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/Skills.sol\":{\"keccak256\":\"0x12e6a0bc25eef7027b1c3160a38ae315fbe02dc24ca24ee5f00f66aed26f98da\",\"urls\":[\"bzz-raw://adb2a8ac79a42abe14c00b821a307e3c5652b149bb9b2023941c25db6cb6a4e8\",\"dweb:/ipfs/QmapcqYTe6QHHfPyJcyttATkrNCzZZfVNS6MwU1wSQtuqW\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610a4b806100206000396000f3fe608060405234801561001057600080fd5b506004361061007d5760003560e01c80638673de531161005b5780638673de53146101bd578063bb50d77214610264578063e518dc3c146102dc578063f4cee617146103ab5761007d565b80632e2acc4c14610082578063359c410f1461015d5780633dc1a6bc1461019f575b600080fd5b61015b6004803603604081101561009857600080fd5b81019080803590602001906401000000008111156100b557600080fd5b8201836020820111156100c757600080fd5b803590602001918460018302840111640100000000831117156100e957600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104b0565b005b6101896004803603602081101561017357600080fd5b8101908080359060200190929190505050610635565b6040518082815260200191505060405180910390f35b6101a76106c8565b6040518082815260200191505060405180910390f35b6101e9600480360360208110156101d357600080fd5b81019080803590602001909291905050506106d5565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561022957808201518184015260208101905061020e565b50505050905090810190601f1680156102565780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b61029a6004803603604081101561027a57600080fd5b81019080803590602001909291908035906020019092919050505061078e565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b610395600480360360208110156102f257600080fd5b810190808035906020019064010000000081111561030f57600080fd5b82018360208201111561032157600080fd5b8035906020019184600183028401116401000000008311171561034357600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290505050610854565b6040518082815260200191505060405180910390f35b61046e600480360360408110156103c157600080fd5b81019080803590602001906401000000008111156103de57600080fd5b8201836020820111156103f057600080fd5b8035906020019184600183028401116401000000008311171561041257600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290803590602001909291905050506108c9565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b600080836040518082805190602001908083835b602083106104e757805182526020820191506020810190506020830392506104c4565b6001836020036101000a0380198251168184511680821785525050505050509050019150509081526020016040518091039020805490501415610564576001829080600181540180825580915050906001820390600052602060002001600090919290919091509080519060200190610561929190610971565b50505b6000826040518082805190602001908083835b6020831061059a5780518252602082019150602081019050602083039250610577565b6001836020036101000a03801982511681845116808217855250505050505090500191505090815260200160405180910390208190806001815401808255809150509060018203906000526020600020016000909192909190916101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505050565b6000806001838154811061064557fe5b9060005260206000200160405180828054600181600116156101000203166002900480156106aa5780601f106106885761010080835404028352918201916106aa565b820191906000526020600020905b815481529060010190602001808311610696575b50509150509081526020016040518091039020805490509050919050565b6000600180549050905090565b6060600182815481106106e457fe5b906000526020600020018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156107825780601f1061075757610100808354040283529160200191610782565b820191906000526020600020905b81548152906001019060200180831161076557829003601f168201915b50505050509050919050565b6000806001848154811061079e57fe5b9060005260206000200160405180828054600181600116156101000203166002900480156108035780601f106107e1576101008083540402835291820191610803565b820191906000526020600020905b8154815290600101906020018083116107ef575b50509150509081526020016040518091039020828154811061082157fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905092915050565b600080826040518082805190602001908083835b6020831061088b5780518252602082019150602081019050602083039250610868565b6001836020036101000a0380198251168184511680821785525050505050509050019150509081526020016040518091039020805490509050919050565b600080836040518082805190602001908083835b6020831061090057805182526020820191506020810190506020830392506108dd565b6001836020036101000a0380198251168184511680821785525050505050509050019150509081526020016040518091039020828154811061093e57fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905092915050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106109b257805160ff19168380011785556109e0565b828001600101855582156109e0579182015b828111156109df5782518255916020019190600101906109c4565b5b5090506109ed91906109f1565b5090565b610a1391905b80821115610a0f5760008160009055506001016109f7565b5090565b9056fea265627a7a723158203b1cd05f9082e32a3e67bfa6902828a4323d2121e2c21217dadc935d0e37532864736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061007d5760003560e01c80638673de531161005b5780638673de53146101bd578063bb50d77214610264578063e518dc3c146102dc578063f4cee617146103ab5761007d565b80632e2acc4c14610082578063359c410f1461015d5780633dc1a6bc1461019f575b600080fd5b61015b6004803603604081101561009857600080fd5b81019080803590602001906401000000008111156100b557600080fd5b8201836020820111156100c757600080fd5b803590602001918460018302840111640100000000831117156100e957600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104b0565b005b6101896004803603602081101561017357600080fd5b8101908080359060200190929190505050610635565b6040518082815260200191505060405180910390f35b6101a76106c8565b6040518082815260200191505060405180910390f35b6101e9600480360360208110156101d357600080fd5b81019080803590602001909291905050506106d5565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561022957808201518184015260208101905061020e565b50505050905090810190601f1680156102565780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b61029a6004803603604081101561027a57600080fd5b81019080803590602001909291908035906020019092919050505061078e565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b610395600480360360208110156102f257600080fd5b810190808035906020019064010000000081111561030f57600080fd5b82018360208201111561032157600080fd5b8035906020019184600183028401116401000000008311171561034357600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290505050610854565b6040518082815260200191505060405180910390f35b61046e600480360360408110156103c157600080fd5b81019080803590602001906401000000008111156103de57600080fd5b8201836020820111156103f057600080fd5b8035906020019184600183028401116401000000008311171561041257600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290803590602001909291905050506108c9565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b600080836040518082805190602001908083835b602083106104e757805182526020820191506020810190506020830392506104c4565b6001836020036101000a0380198251168184511680821785525050505050509050019150509081526020016040518091039020805490501415610564576001829080600181540180825580915050906001820390600052602060002001600090919290919091509080519060200190610561929190610971565b50505b6000826040518082805190602001908083835b6020831061059a5780518252602082019150602081019050602083039250610577565b6001836020036101000a03801982511681845116808217855250505050505090500191505090815260200160405180910390208190806001815401808255809150509060018203906000526020600020016000909192909190916101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505050565b6000806001838154811061064557fe5b9060005260206000200160405180828054600181600116156101000203166002900480156106aa5780601f106106885761010080835404028352918201916106aa565b820191906000526020600020905b815481529060010190602001808311610696575b50509150509081526020016040518091039020805490509050919050565b6000600180549050905090565b6060600182815481106106e457fe5b906000526020600020018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156107825780601f1061075757610100808354040283529160200191610782565b820191906000526020600020905b81548152906001019060200180831161076557829003601f168201915b50505050509050919050565b6000806001848154811061079e57fe5b9060005260206000200160405180828054600181600116156101000203166002900480156108035780601f106107e1576101008083540402835291820191610803565b820191906000526020600020905b8154815290600101906020018083116107ef575b50509150509081526020016040518091039020828154811061082157fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905092915050565b600080826040518082805190602001908083835b6020831061088b5780518252602082019150602081019050602083039250610868565b6001836020036101000a0380198251168184511680821785525050505050509050019150509081526020016040518091039020805490509050919050565b600080836040518082805190602001908083835b6020831061090057805182526020820191506020810190506020830392506108dd565b6001836020036101000a0380198251168184511680821785525050505050509050019150509081526020016040518091039020828154811061093e57fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905092915050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106109b257805160ff19168380011785556109e0565b828001600101855582156109e0579182015b828111156109df5782518255916020019190600101906109c4565b5b5090506109ed91906109f1565b5090565b610a1391905b80821115610a0f5760008160009055506001016109f7565b5090565b9056fea265627a7a723158203b1cd05f9082e32a3e67bfa6902828a4323d2121e2c21217dadc935d0e37532864736f6c63430005100032",
+  "sourceMap": "68:1162:4:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;68:1162:4;;;;;;;",
+  "deployedSourceMap": "68:1162:4:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;68:1162:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;152:192;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;152:192:4;;;;;;;;;;21:11:-1;8;5:28;2:2;;;46:1;43;36:12;2:2;152:192:4;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;152:192:4;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;152:192:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;93:3;85:6;81:16;74:27;137:4;133:9;126:4;121:3;117:14;113:30;106:37;;169:3;161:6;157:16;147:26;;152:192:4;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;559:152;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;559:152:4;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;350:88;;;:::i;:::-;;;;;;;;;;;;;;;;;;;444:109;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;444:109:4;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;444:109:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;873:182;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;873:182:4;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;717:150;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;717:150:4;;;;;;;;;;21:11:-1;8;5:28;2:2;;;46:1;43;36:12;2:2;717:150:4;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;717:150:4;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;717:150:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;93:3;85:6;81:16;74:27;137:4;133:9;126:4;121:3;117:14;113:30;106:37;;169:3;161:6;157:16;147:26;;717:150:4;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;1061:166;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1061:166:4;;;;;;;;;;21:11:-1;8;5:28;2:2;;;46:1;43;36:12;2:2;1061:166:4;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;1061:166:4;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;1061:166:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;93:3;85:6;81:16;74:27;137:4;133:9;126:4;121:3;117:14;113:30;106:37;;169:3;161:6;157:16;147:26;;1061:166:4;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;152:192;264:1;238:8;247:5;238:15;;;;;;;;;;;;;36:153:-1;66:2;61:3;58:11;36:153;;182:3;176:10;171:3;164:23;98:2;93:3;89:12;82:19;;123:2;118:3;114:12;107:19;;148:2;143:3;139:12;132:19;;36:153;;;274:1;267:3;263:2;259:12;254:3;250:22;246:30;315:4;311:9;305:3;299:10;295:26;356:4;350:3;344:10;340:21;389:7;380;377:20;372:3;365:33;3:399;;;238:15:4;;;;;;;;;;;;;;;;;;;;;:22;;;;:27;234:67;;;276:5;287;276:17;;39:1:-1;33:3;27:10;23:18;57:10;52:3;45:23;79:10;72:17;;0:93;276:17:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;234:67;307:8;316:5;307:15;;;;;;;;;;;;;36:153:-1;66:2;61:3;58:11;36:153;;182:3;176:10;171:3;164:23;98:2;93:3;89:12;82:19;;123:2;118:3;114:12;107:19;;148:2;143:3;139:12;132:19;;36:153;;;274:1;267:3;263:2;259:12;254:3;250:22;246:30;315:4;311:9;305:3;299:10;295:26;356:4;350:3;344:10;340:21;389:7;380;377:20;372:3;365:33;3:399;;;307:15:4;;;;;;;;;;;;;;;;;;;;;328:9;307:31;;39:1:-1;33:3;27:10;23:18;57:10;52:3;45:23;79:10;72:17;;0:93;307:31:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;152:192;;:::o;559:152::-;650:7;676:8;685:5;691;685:12;;;;;;;;;;;;;;;676:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:29;;;;669:36;;559:152;;;:::o;350:88::-;397:7;420:5;:12;;;;413:19;;350:88;:::o;444:109::-;506:13;535:5;541;535:12;;;;;;;;;;;;;;;528:19;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;444:109;;;:::o;873:182::-;984:7;1010:8;1019:5;1025:11;1019:18;;;;;;;;;;;;;;;1010:28;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1039:9;1010:39;;;;;;;;;;;;;;;;;;;;;;;;;1003:46;;873:182;;;;:::o;717:150::-;813:7;839:8;848:5;839:15;;;;;;;;;;;;;36:153:-1;66:2;61:3;58:11;36:153;;182:3;176:10;171:3;164:23;98:2;93:3;89:12;82:19;;123:2;118:3;114:12;107:19;;148:2;143:3;139:12;132:19;;36:153;;;274:1;267:3;263:2;259:12;254:3;250:22;246:30;315:4;311:9;305:3;299:10;295:26;356:4;350:3;344:10;340:21;389:7;380;377:20;372:3;365:33;3:399;;;839:15:4;;;;;;;;;;;;;;;;;;;;;:22;;;;832:29;;717:150;;;:::o;1061:166::-;1169:7;1195:8;1204:5;1195:15;;;;;;;;;;;;;36:153:-1;66:2;61:3;58:11;36:153;;182:3;176:10;171:3;164:23;98:2;93:3;89:12;82:19;;123:2;118:3;114:12;107:19;;148:2;143:3;139:12;132:19;;36:153;;;274:1;267:3;263:2;259:12;254:3;250:22;246:30;315:4;311:9;305:3;299:10;295:26;356:4;350:3;344:10;340:21;389:7;380;377:20;372:3;365:33;3:399;;;1195:15:4;;;;;;;;;;;;;;;;;;;;;1211:9;1195:26;;;;;;;;;;;;;;;;;;;;;;;;;1188:33;;1061:166;;;;:::o;68:1162::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.5.0 <0.9.0;\r\n\r\ncontract Skills {\r\n  mapping(string => address[]) skillmap;\r\n  string[] skill;\r\n\r\n  function addEmployeeToSkill(string memory _name, address _employee) public {\r\n    if (skillmap[_name].length == 0) {\r\n      skill.push(_name);\r\n    }\r\n    skillmap[_name].push(_employee);\r\n  }\r\n\r\n  function getSkillLength() public view returns (uint256) {\r\n    return skill.length;\r\n  }\r\n\r\n  function getSkillsByIndex(uint256 index) public view returns (string memory) {\r\n    return skill[index];\r\n  }\r\n\r\n  function getTotalEmployeeInSkillByIndex(uint256 index)\r\n    public\r\n    view\r\n    returns (uint256)\r\n  {\r\n    return skillmap[skill[index]].length;\r\n  }\r\n\r\n  function getTotalEmployeeInSkillByName(string memory _name)\r\n    public\r\n    view\r\n    returns (uint256)\r\n  {\r\n    return skillmap[_name].length;\r\n  }\r\n\r\n  function getEmployeeInSkillByIndex(uint256 skill_index, uint256 emp_index)\r\n    public\r\n    view\r\n    returns (address)\r\n  {\r\n    return skillmap[skill[skill_index]][emp_index];\r\n  }\r\n\r\n  function getEmployeeBySkillName(string memory _name, uint256 emp_index)\r\n    public\r\n    view\r\n    returns (address)\r\n  {\r\n    return skillmap[_name][emp_index];\r\n  }\r\n}",
+  "sourcePath": "C:\\Users\\anusa\\ReactProjects\\copy-app\\src\\contracts\\Skills.sol",
+  "ast": {
+    "absolutePath": "project:/src/contracts/Skills.sol",
+    "exportedSymbols": {
+      "Skills": [
+        1407
+      ]
+    },
+    "id": 1408,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1286,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:31:4"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1407,
+        "linearizedBaseContracts": [
+          1407
+        ],
+        "name": "Skills",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 1291,
+            "name": "skillmap",
+            "nodeType": "VariableDeclaration",
+            "scope": 1407,
+            "src": "89:37:4",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_string_memory_$_t_array$_t_address_$dyn_storage_$",
+              "typeString": "mapping(string => address[])"
+            },
+            "typeName": {
+              "id": 1290,
+              "keyType": {
+                "id": 1287,
+                "name": "string",
+                "nodeType": "ElementaryTypeName",
+                "src": "97:6:4",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "89:28:4",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_string_memory_$_t_array$_t_address_$dyn_storage_$",
+                "typeString": "mapping(string => address[])"
+              },
+              "valueType": {
+                "baseType": {
+                  "id": 1288,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "107:7:4",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "id": 1289,
+                "length": null,
+                "nodeType": "ArrayTypeName",
+                "src": "107:9:4",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
+                  "typeString": "address[]"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 1294,
+            "name": "skill",
+            "nodeType": "VariableDeclaration",
+            "scope": 1407,
+            "src": "131:14:4",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+              "typeString": "string[]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 1292,
+                "name": "string",
+                "nodeType": "ElementaryTypeName",
+                "src": "131:6:4",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                }
+              },
+              "id": 1293,
+              "length": null,
+              "nodeType": "ArrayTypeName",
+              "src": "131:8:4",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_string_storage_$dyn_storage_ptr",
+                "typeString": "string[]"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 1322,
+              "nodeType": "Block",
+              "src": "227:117:4",
+              "statements": [
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "id": 1306,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "baseExpression": {
+                          "argumentTypes": null,
+                          "id": 1301,
+                          "name": "skillmap",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1291,
+                          "src": "238:8:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_string_memory_$_t_array$_t_address_$dyn_storage_$",
+                            "typeString": "mapping(string memory => address[] storage ref)"
+                          }
+                        },
+                        "id": 1303,
+                        "indexExpression": {
+                          "argumentTypes": null,
+                          "id": 1302,
+                          "name": "_name",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1296,
+                          "src": "247:5:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "238:15:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_address_$dyn_storage",
+                          "typeString": "address[] storage ref"
+                        }
+                      },
+                      "id": 1304,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "length",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "238:22:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "hexValue": "30",
+                      "id": 1305,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "264:1:4",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_0_by_1",
+                        "typeString": "int_const 0"
+                      },
+                      "value": "0"
+                    },
+                    "src": "238:27:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 1314,
+                  "nodeType": "IfStatement",
+                  "src": "234:67:4",
+                  "trueBody": {
+                    "id": 1313,
+                    "nodeType": "Block",
+                    "src": "267:34:4",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "arguments": [
+                            {
+                              "argumentTypes": null,
+                              "id": 1310,
+                              "name": "_name",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 1296,
+                              "src": "287:5:4",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_string_memory_ptr",
+                                "typeString": "string memory"
+                              }
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_string_memory_ptr",
+                                "typeString": "string memory"
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 1307,
+                              "name": "skill",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 1294,
+                              "src": "276:5:4",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                                "typeString": "string storage ref[] storage ref"
+                              }
+                            },
+                            "id": 1309,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "push",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": null,
+                            "src": "276:10:4",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_arraypush_nonpayable$_t_string_storage_$returns$_t_uint256_$",
+                              "typeString": "function (string storage ref) returns (uint256)"
+                            }
+                          },
+                          "id": 1311,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "276:17:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "id": 1312,
+                        "nodeType": "ExpressionStatement",
+                        "src": "276:17:4"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 1319,
+                        "name": "_employee",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1298,
+                        "src": "328:9:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "baseExpression": {
+                          "argumentTypes": null,
+                          "id": 1315,
+                          "name": "skillmap",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1291,
+                          "src": "307:8:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_string_memory_$_t_array$_t_address_$dyn_storage_$",
+                            "typeString": "mapping(string memory => address[] storage ref)"
+                          }
+                        },
+                        "id": 1317,
+                        "indexExpression": {
+                          "argumentTypes": null,
+                          "id": 1316,
+                          "name": "_name",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1296,
+                          "src": "316:5:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "307:15:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_address_$dyn_storage",
+                          "typeString": "address[] storage ref"
+                        }
+                      },
+                      "id": 1318,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "307:20:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_address_$returns$_t_uint256_$",
+                        "typeString": "function (address) returns (uint256)"
+                      }
+                    },
+                    "id": 1320,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "307:31:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 1321,
+                  "nodeType": "ExpressionStatement",
+                  "src": "307:31:4"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 1323,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "addEmployeeToSkill",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1299,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1296,
+                  "name": "_name",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1323,
+                  "src": "180:19:4",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 1295,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "180:6:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1298,
+                  "name": "_employee",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1323,
+                  "src": "201:17:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1297,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "201:7:4",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "179:40:4"
+            },
+            "returnParameters": {
+              "id": 1300,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "227:0:4"
+            },
+            "scope": 1407,
+            "src": "152:192:4",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1331,
+              "nodeType": "Block",
+              "src": "406:32:4",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "expression": {
+                      "argumentTypes": null,
+                      "id": 1328,
+                      "name": "skill",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1294,
+                      "src": "420:5:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                        "typeString": "string storage ref[] storage ref"
+                      }
+                    },
+                    "id": 1329,
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberName": "length",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": null,
+                    "src": "420:12:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 1327,
+                  "id": 1330,
+                  "nodeType": "Return",
+                  "src": "413:19:4"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 1332,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getSkillLength",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1324,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "373:2:4"
+            },
+            "returnParameters": {
+              "id": 1327,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1326,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1332,
+                  "src": "397:7:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1325,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "397:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "396:9:4"
+            },
+            "scope": 1407,
+            "src": "350:88:4",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1343,
+              "nodeType": "Block",
+              "src": "521:32:4",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "baseExpression": {
+                      "argumentTypes": null,
+                      "id": 1339,
+                      "name": "skill",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1294,
+                      "src": "535:5:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                        "typeString": "string storage ref[] storage ref"
+                      }
+                    },
+                    "id": 1341,
+                    "indexExpression": {
+                      "argumentTypes": null,
+                      "id": 1340,
+                      "name": "index",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1334,
+                      "src": "541:5:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "IndexAccess",
+                    "src": "535:12:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage",
+                      "typeString": "string storage ref"
+                    }
+                  },
+                  "functionReturnParameters": 1338,
+                  "id": 1342,
+                  "nodeType": "Return",
+                  "src": "528:19:4"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 1344,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getSkillsByIndex",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1335,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1334,
+                  "name": "index",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1344,
+                  "src": "470:13:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1333,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "470:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "469:15:4"
+            },
+            "returnParameters": {
+              "id": 1338,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1337,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1344,
+                  "src": "506:13:4",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 1336,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "506:6:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "505:15:4"
+            },
+            "scope": 1407,
+            "src": "444:109:4",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1358,
+              "nodeType": "Block",
+              "src": "662:49:4",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "expression": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 1351,
+                        "name": "skillmap",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1291,
+                        "src": "676:8:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_string_memory_$_t_array$_t_address_$dyn_storage_$",
+                          "typeString": "mapping(string memory => address[] storage ref)"
+                        }
+                      },
+                      "id": 1355,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "baseExpression": {
+                          "argumentTypes": null,
+                          "id": 1352,
+                          "name": "skill",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1294,
+                          "src": "685:5:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                            "typeString": "string storage ref[] storage ref"
+                          }
+                        },
+                        "id": 1354,
+                        "indexExpression": {
+                          "argumentTypes": null,
+                          "id": 1353,
+                          "name": "index",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1346,
+                          "src": "691:5:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "685:12:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_storage",
+                          "typeString": "string storage ref"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "IndexAccess",
+                      "src": "676:22:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_address_$dyn_storage",
+                        "typeString": "address[] storage ref"
+                      }
+                    },
+                    "id": 1356,
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberName": "length",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": null,
+                    "src": "676:29:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 1350,
+                  "id": 1357,
+                  "nodeType": "Return",
+                  "src": "669:36:4"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 1359,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getTotalEmployeeInSkillByIndex",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1347,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1346,
+                  "name": "index",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1359,
+                  "src": "599:13:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1345,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "599:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "598:15:4"
+            },
+            "returnParameters": {
+              "id": 1350,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1349,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1359,
+                  "src": "650:7:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1348,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "650:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "649:9:4"
+            },
+            "scope": 1407,
+            "src": "559:152:4",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1371,
+              "nodeType": "Block",
+              "src": "825:42:4",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "expression": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 1366,
+                        "name": "skillmap",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1291,
+                        "src": "839:8:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_string_memory_$_t_array$_t_address_$dyn_storage_$",
+                          "typeString": "mapping(string memory => address[] storage ref)"
+                        }
+                      },
+                      "id": 1368,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "id": 1367,
+                        "name": "_name",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1361,
+                        "src": "848:5:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "IndexAccess",
+                      "src": "839:15:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_address_$dyn_storage",
+                        "typeString": "address[] storage ref"
+                      }
+                    },
+                    "id": 1369,
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberName": "length",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": null,
+                    "src": "839:22:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 1365,
+                  "id": 1370,
+                  "nodeType": "Return",
+                  "src": "832:29:4"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 1372,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getTotalEmployeeInSkillByName",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1362,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1361,
+                  "name": "_name",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1372,
+                  "src": "756:19:4",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 1360,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "756:6:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "755:21:4"
+            },
+            "returnParameters": {
+              "id": 1365,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1364,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1372,
+                  "src": "813:7:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1363,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "813:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "812:9:4"
+            },
+            "scope": 1407,
+            "src": "717:150:4",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1389,
+              "nodeType": "Block",
+              "src": "996:59:4",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "baseExpression": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 1381,
+                        "name": "skillmap",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1291,
+                        "src": "1010:8:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_string_memory_$_t_array$_t_address_$dyn_storage_$",
+                          "typeString": "mapping(string memory => address[] storage ref)"
+                        }
+                      },
+                      "id": 1385,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "baseExpression": {
+                          "argumentTypes": null,
+                          "id": 1382,
+                          "name": "skill",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1294,
+                          "src": "1019:5:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_array$_t_string_storage_$dyn_storage",
+                            "typeString": "string storage ref[] storage ref"
+                          }
+                        },
+                        "id": 1384,
+                        "indexExpression": {
+                          "argumentTypes": null,
+                          "id": 1383,
+                          "name": "skill_index",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1374,
+                          "src": "1025:11:4",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "1019:18:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_storage",
+                          "typeString": "string storage ref"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "IndexAccess",
+                      "src": "1010:28:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_address_$dyn_storage",
+                        "typeString": "address[] storage ref"
+                      }
+                    },
+                    "id": 1387,
+                    "indexExpression": {
+                      "argumentTypes": null,
+                      "id": 1386,
+                      "name": "emp_index",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1376,
+                      "src": "1039:9:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "IndexAccess",
+                    "src": "1010:39:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "functionReturnParameters": 1380,
+                  "id": 1388,
+                  "nodeType": "Return",
+                  "src": "1003:46:4"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 1390,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getEmployeeInSkillByIndex",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1377,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1374,
+                  "name": "skill_index",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1390,
+                  "src": "908:19:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1373,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "908:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1376,
+                  "name": "emp_index",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1390,
+                  "src": "929:17:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1375,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "929:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "907:40:4"
+            },
+            "returnParameters": {
+              "id": 1380,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1379,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1390,
+                  "src": "984:7:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1378,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "984:7:4",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "983:9:4"
+            },
+            "scope": 1407,
+            "src": "873:182:4",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1405,
+              "nodeType": "Block",
+              "src": "1181:46:4",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "baseExpression": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 1399,
+                        "name": "skillmap",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1291,
+                        "src": "1195:8:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_string_memory_$_t_array$_t_address_$dyn_storage_$",
+                          "typeString": "mapping(string memory => address[] storage ref)"
+                        }
+                      },
+                      "id": 1401,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "id": 1400,
+                        "name": "_name",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1392,
+                        "src": "1204:5:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_memory_ptr",
+                          "typeString": "string memory"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "IndexAccess",
+                      "src": "1195:15:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_address_$dyn_storage",
+                        "typeString": "address[] storage ref"
+                      }
+                    },
+                    "id": 1403,
+                    "indexExpression": {
+                      "argumentTypes": null,
+                      "id": 1402,
+                      "name": "emp_index",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1394,
+                      "src": "1211:9:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "IndexAccess",
+                    "src": "1195:26:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "functionReturnParameters": 1398,
+                  "id": 1404,
+                  "nodeType": "Return",
+                  "src": "1188:33:4"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 1406,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getEmployeeBySkillName",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1395,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1392,
+                  "name": "_name",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1406,
+                  "src": "1093:19:4",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 1391,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1093:6:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1394,
+                  "name": "emp_index",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1406,
+                  "src": "1114:17:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1393,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1114:7:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1092:40:4"
+            },
+            "returnParameters": {
+              "id": 1398,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1397,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1406,
+                  "src": "1169:7:4",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1396,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1169:7:4",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1168:9:4"
+            },
+            "scope": 1407,
+            "src": "1061:166:4",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 1408,
+        "src": "68:1162:4"
+      }
+    ],
+    "src": "33:1197:4"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/src/contracts/Skills.sol",
+      "exportedSymbols": {
+        "Skills": [
+          1407
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.5",
+            ".0",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 1286,
+        "name": "PragmaDirective",
+        "src": "33:31:4"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            1407
+          ],
+          "name": "Skills",
+          "scope": 1408
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "skillmap",
+              "scope": 1407,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "mapping(string => address[])",
+              "value": null,
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "type": "mapping(string => address[])"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "string",
+                      "type": "string"
+                    },
+                    "id": 1287,
+                    "name": "ElementaryTypeName",
+                    "src": "97:6:4"
+                  },
+                  {
+                    "attributes": {
+                      "length": null,
+                      "type": "address[]"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 1288,
+                        "name": "ElementaryTypeName",
+                        "src": "107:7:4"
+                      }
+                    ],
+                    "id": 1289,
+                    "name": "ArrayTypeName",
+                    "src": "107:9:4"
+                  }
+                ],
+                "id": 1290,
+                "name": "Mapping",
+                "src": "89:28:4"
+              }
+            ],
+            "id": 1291,
+            "name": "VariableDeclaration",
+            "src": "89:37:4"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "skill",
+              "scope": 1407,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "string[]",
+              "value": null,
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "length": null,
+                  "type": "string[]"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "string",
+                      "type": "string"
+                    },
+                    "id": 1292,
+                    "name": "ElementaryTypeName",
+                    "src": "131:6:4"
+                  }
+                ],
+                "id": 1293,
+                "name": "ArrayTypeName",
+                "src": "131:8:4"
+              }
+            ],
+            "id": 1294,
+            "name": "VariableDeclaration",
+            "src": "131:14:4"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "addEmployeeToSkill",
+              "scope": 1407,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_name",
+                      "scope": 1323,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 1295,
+                        "name": "ElementaryTypeName",
+                        "src": "180:6:4"
+                      }
+                    ],
+                    "id": 1296,
+                    "name": "VariableDeclaration",
+                    "src": "180:19:4"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_employee",
+                      "scope": 1323,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 1297,
+                        "name": "ElementaryTypeName",
+                        "src": "201:7:4"
+                      }
+                    ],
+                    "id": 1298,
+                    "name": "VariableDeclaration",
+                    "src": "201:17:4"
+                  }
+                ],
+                "id": 1299,
+                "name": "ParameterList",
+                "src": "179:40:4"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 1300,
+                "name": "ParameterList",
+                "src": "227:0:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "falseBody": null
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "commonType": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          },
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "==",
+                          "type": "bool"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "member_name": "length",
+                              "referencedDeclaration": null,
+                              "type": "uint256"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "type": "address[] storage ref"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 1291,
+                                      "type": "mapping(string memory => address[] storage ref)",
+                                      "value": "skillmap"
+                                    },
+                                    "id": 1301,
+                                    "name": "Identifier",
+                                    "src": "238:8:4"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 1296,
+                                      "type": "string memory",
+                                      "value": "_name"
+                                    },
+                                    "id": 1302,
+                                    "name": "Identifier",
+                                    "src": "247:5:4"
+                                  }
+                                ],
+                                "id": 1303,
+                                "name": "IndexAccess",
+                                "src": "238:15:4"
+                              }
+                            ],
+                            "id": 1304,
+                            "name": "MemberAccess",
+                            "src": "238:22:4"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "hexvalue": "30",
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "subdenomination": null,
+                              "token": "number",
+                              "type": "int_const 0",
+                              "value": "0"
+                            },
+                            "id": 1305,
+                            "name": "Literal",
+                            "src": "264:1:4"
+                          }
+                        ],
+                        "id": 1306,
+                        "name": "BinaryOperation",
+                        "src": "238:27:4"
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "isStructConstructorCall": false,
+                                  "lValueRequested": false,
+                                  "names": [
+                                    null
+                                  ],
+                                  "type": "uint256",
+                                  "type_conversion": false
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": [
+                                        {
+                                          "typeIdentifier": "t_string_memory_ptr",
+                                          "typeString": "string memory"
+                                        }
+                                      ],
+                                      "isConstant": false,
+                                      "isLValue": false,
+                                      "isPure": false,
+                                      "lValueRequested": false,
+                                      "member_name": "push",
+                                      "referencedDeclaration": null,
+                                      "type": "function (string storage ref) returns (uint256)"
+                                    },
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "argumentTypes": null,
+                                          "overloadedDeclarations": [
+                                            null
+                                          ],
+                                          "referencedDeclaration": 1294,
+                                          "type": "string storage ref[] storage ref",
+                                          "value": "skill"
+                                        },
+                                        "id": 1307,
+                                        "name": "Identifier",
+                                        "src": "276:5:4"
+                                      }
+                                    ],
+                                    "id": 1309,
+                                    "name": "MemberAccess",
+                                    "src": "276:10:4"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 1296,
+                                      "type": "string memory",
+                                      "value": "_name"
+                                    },
+                                    "id": 1310,
+                                    "name": "Identifier",
+                                    "src": "287:5:4"
+                                  }
+                                ],
+                                "id": 1311,
+                                "name": "FunctionCall",
+                                "src": "276:17:4"
+                              }
+                            ],
+                            "id": 1312,
+                            "name": "ExpressionStatement",
+                            "src": "276:17:4"
+                          }
+                        ],
+                        "id": 1313,
+                        "name": "Block",
+                        "src": "267:34:4"
+                      }
+                    ],
+                    "id": 1314,
+                    "name": "IfStatement",
+                    "src": "234:67:4"
+                  },
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "isStructConstructorCall": false,
+                          "lValueRequested": false,
+                          "names": [
+                            null
+                          ],
+                          "type": "uint256",
+                          "type_conversion": false
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_address",
+                                  "typeString": "address"
+                                }
+                              ],
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "member_name": "push",
+                              "referencedDeclaration": null,
+                              "type": "function (address) returns (uint256)"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "type": "address[] storage ref"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 1291,
+                                      "type": "mapping(string memory => address[] storage ref)",
+                                      "value": "skillmap"
+                                    },
+                                    "id": 1315,
+                                    "name": "Identifier",
+                                    "src": "307:8:4"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 1296,
+                                      "type": "string memory",
+                                      "value": "_name"
+                                    },
+                                    "id": 1316,
+                                    "name": "Identifier",
+                                    "src": "316:5:4"
+                                  }
+                                ],
+                                "id": 1317,
+                                "name": "IndexAccess",
+                                "src": "307:15:4"
+                              }
+                            ],
+                            "id": 1318,
+                            "name": "MemberAccess",
+                            "src": "307:20:4"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 1298,
+                              "type": "address",
+                              "value": "_employee"
+                            },
+                            "id": 1319,
+                            "name": "Identifier",
+                            "src": "328:9:4"
+                          }
+                        ],
+                        "id": 1320,
+                        "name": "FunctionCall",
+                        "src": "307:31:4"
+                      }
+                    ],
+                    "id": 1321,
+                    "name": "ExpressionStatement",
+                    "src": "307:31:4"
+                  }
+                ],
+                "id": 1322,
+                "name": "Block",
+                "src": "227:117:4"
+              }
+            ],
+            "id": 1323,
+            "name": "FunctionDefinition",
+            "src": "152:192:4"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "getSkillLength",
+              "scope": 1407,
+              "stateMutability": "view",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 1324,
+                "name": "ParameterList",
+                "src": "373:2:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 1332,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 1325,
+                        "name": "ElementaryTypeName",
+                        "src": "397:7:4"
+                      }
+                    ],
+                    "id": 1326,
+                    "name": "VariableDeclaration",
+                    "src": "397:7:4"
+                  }
+                ],
+                "id": 1327,
+                "name": "ParameterList",
+                "src": "396:9:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 1327
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "member_name": "length",
+                          "referencedDeclaration": null,
+                          "type": "uint256"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 1294,
+                              "type": "string storage ref[] storage ref",
+                              "value": "skill"
+                            },
+                            "id": 1328,
+                            "name": "Identifier",
+                            "src": "420:5:4"
+                          }
+                        ],
+                        "id": 1329,
+                        "name": "MemberAccess",
+                        "src": "420:12:4"
+                      }
+                    ],
+                    "id": 1330,
+                    "name": "Return",
+                    "src": "413:19:4"
+                  }
+                ],
+                "id": 1331,
+                "name": "Block",
+                "src": "406:32:4"
+              }
+            ],
+            "id": 1332,
+            "name": "FunctionDefinition",
+            "src": "350:88:4"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "getSkillsByIndex",
+              "scope": 1407,
+              "stateMutability": "view",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "index",
+                      "scope": 1344,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 1333,
+                        "name": "ElementaryTypeName",
+                        "src": "470:7:4"
+                      }
+                    ],
+                    "id": 1334,
+                    "name": "VariableDeclaration",
+                    "src": "470:13:4"
+                  }
+                ],
+                "id": 1335,
+                "name": "ParameterList",
+                "src": "469:15:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 1344,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 1336,
+                        "name": "ElementaryTypeName",
+                        "src": "506:6:4"
+                      }
+                    ],
+                    "id": 1337,
+                    "name": "VariableDeclaration",
+                    "src": "506:13:4"
+                  }
+                ],
+                "id": 1338,
+                "name": "ParameterList",
+                "src": "505:15:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 1338
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "type": "string storage ref"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 1294,
+                              "type": "string storage ref[] storage ref",
+                              "value": "skill"
+                            },
+                            "id": 1339,
+                            "name": "Identifier",
+                            "src": "535:5:4"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 1334,
+                              "type": "uint256",
+                              "value": "index"
+                            },
+                            "id": 1340,
+                            "name": "Identifier",
+                            "src": "541:5:4"
+                          }
+                        ],
+                        "id": 1341,
+                        "name": "IndexAccess",
+                        "src": "535:12:4"
+                      }
+                    ],
+                    "id": 1342,
+                    "name": "Return",
+                    "src": "528:19:4"
+                  }
+                ],
+                "id": 1343,
+                "name": "Block",
+                "src": "521:32:4"
+              }
+            ],
+            "id": 1344,
+            "name": "FunctionDefinition",
+            "src": "444:109:4"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "getTotalEmployeeInSkillByIndex",
+              "scope": 1407,
+              "stateMutability": "view",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "index",
+                      "scope": 1359,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 1345,
+                        "name": "ElementaryTypeName",
+                        "src": "599:7:4"
+                      }
+                    ],
+                    "id": 1346,
+                    "name": "VariableDeclaration",
+                    "src": "599:13:4"
+                  }
+                ],
+                "id": 1347,
+                "name": "ParameterList",
+                "src": "598:15:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 1359,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 1348,
+                        "name": "ElementaryTypeName",
+                        "src": "650:7:4"
+                      }
+                    ],
+                    "id": 1349,
+                    "name": "VariableDeclaration",
+                    "src": "650:7:4"
+                  }
+                ],
+                "id": 1350,
+                "name": "ParameterList",
+                "src": "649:9:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 1350
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "member_name": "length",
+                          "referencedDeclaration": null,
+                          "type": "uint256"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "type": "address[] storage ref"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 1291,
+                                  "type": "mapping(string memory => address[] storage ref)",
+                                  "value": "skillmap"
+                                },
+                                "id": 1351,
+                                "name": "Identifier",
+                                "src": "676:8:4"
+                              },
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "type": "string storage ref"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 1294,
+                                      "type": "string storage ref[] storage ref",
+                                      "value": "skill"
+                                    },
+                                    "id": 1352,
+                                    "name": "Identifier",
+                                    "src": "685:5:4"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 1346,
+                                      "type": "uint256",
+                                      "value": "index"
+                                    },
+                                    "id": 1353,
+                                    "name": "Identifier",
+                                    "src": "691:5:4"
+                                  }
+                                ],
+                                "id": 1354,
+                                "name": "IndexAccess",
+                                "src": "685:12:4"
+                              }
+                            ],
+                            "id": 1355,
+                            "name": "IndexAccess",
+                            "src": "676:22:4"
+                          }
+                        ],
+                        "id": 1356,
+                        "name": "MemberAccess",
+                        "src": "676:29:4"
+                      }
+                    ],
+                    "id": 1357,
+                    "name": "Return",
+                    "src": "669:36:4"
+                  }
+                ],
+                "id": 1358,
+                "name": "Block",
+                "src": "662:49:4"
+              }
+            ],
+            "id": 1359,
+            "name": "FunctionDefinition",
+            "src": "559:152:4"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "getTotalEmployeeInSkillByName",
+              "scope": 1407,
+              "stateMutability": "view",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_name",
+                      "scope": 1372,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 1360,
+                        "name": "ElementaryTypeName",
+                        "src": "756:6:4"
+                      }
+                    ],
+                    "id": 1361,
+                    "name": "VariableDeclaration",
+                    "src": "756:19:4"
+                  }
+                ],
+                "id": 1362,
+                "name": "ParameterList",
+                "src": "755:21:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 1372,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 1363,
+                        "name": "ElementaryTypeName",
+                        "src": "813:7:4"
+                      }
+                    ],
+                    "id": 1364,
+                    "name": "VariableDeclaration",
+                    "src": "813:7:4"
+                  }
+                ],
+                "id": 1365,
+                "name": "ParameterList",
+                "src": "812:9:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 1365
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "member_name": "length",
+                          "referencedDeclaration": null,
+                          "type": "uint256"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "type": "address[] storage ref"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 1291,
+                                  "type": "mapping(string memory => address[] storage ref)",
+                                  "value": "skillmap"
+                                },
+                                "id": 1366,
+                                "name": "Identifier",
+                                "src": "839:8:4"
+                              },
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 1361,
+                                  "type": "string memory",
+                                  "value": "_name"
+                                },
+                                "id": 1367,
+                                "name": "Identifier",
+                                "src": "848:5:4"
+                              }
+                            ],
+                            "id": 1368,
+                            "name": "IndexAccess",
+                            "src": "839:15:4"
+                          }
+                        ],
+                        "id": 1369,
+                        "name": "MemberAccess",
+                        "src": "839:22:4"
+                      }
+                    ],
+                    "id": 1370,
+                    "name": "Return",
+                    "src": "832:29:4"
+                  }
+                ],
+                "id": 1371,
+                "name": "Block",
+                "src": "825:42:4"
+              }
+            ],
+            "id": 1372,
+            "name": "FunctionDefinition",
+            "src": "717:150:4"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "getEmployeeInSkillByIndex",
+              "scope": 1407,
+              "stateMutability": "view",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "skill_index",
+                      "scope": 1390,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 1373,
+                        "name": "ElementaryTypeName",
+                        "src": "908:7:4"
+                      }
+                    ],
+                    "id": 1374,
+                    "name": "VariableDeclaration",
+                    "src": "908:19:4"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "emp_index",
+                      "scope": 1390,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 1375,
+                        "name": "ElementaryTypeName",
+                        "src": "929:7:4"
+                      }
+                    ],
+                    "id": 1376,
+                    "name": "VariableDeclaration",
+                    "src": "929:17:4"
+                  }
+                ],
+                "id": 1377,
+                "name": "ParameterList",
+                "src": "907:40:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 1390,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 1378,
+                        "name": "ElementaryTypeName",
+                        "src": "984:7:4"
+                      }
+                    ],
+                    "id": 1379,
+                    "name": "VariableDeclaration",
+                    "src": "984:7:4"
+                  }
+                ],
+                "id": 1380,
+                "name": "ParameterList",
+                "src": "983:9:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 1380
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "type": "address"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "type": "address[] storage ref"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 1291,
+                                  "type": "mapping(string memory => address[] storage ref)",
+                                  "value": "skillmap"
+                                },
+                                "id": 1381,
+                                "name": "Identifier",
+                                "src": "1010:8:4"
+                              },
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "isConstant": false,
+                                  "isLValue": true,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "type": "string storage ref"
+                                },
+                                "children": [
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 1294,
+                                      "type": "string storage ref[] storage ref",
+                                      "value": "skill"
+                                    },
+                                    "id": 1382,
+                                    "name": "Identifier",
+                                    "src": "1019:5:4"
+                                  },
+                                  {
+                                    "attributes": {
+                                      "argumentTypes": null,
+                                      "overloadedDeclarations": [
+                                        null
+                                      ],
+                                      "referencedDeclaration": 1374,
+                                      "type": "uint256",
+                                      "value": "skill_index"
+                                    },
+                                    "id": 1383,
+                                    "name": "Identifier",
+                                    "src": "1025:11:4"
+                                  }
+                                ],
+                                "id": 1384,
+                                "name": "IndexAccess",
+                                "src": "1019:18:4"
+                              }
+                            ],
+                            "id": 1385,
+                            "name": "IndexAccess",
+                            "src": "1010:28:4"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 1376,
+                              "type": "uint256",
+                              "value": "emp_index"
+                            },
+                            "id": 1386,
+                            "name": "Identifier",
+                            "src": "1039:9:4"
+                          }
+                        ],
+                        "id": 1387,
+                        "name": "IndexAccess",
+                        "src": "1010:39:4"
+                      }
+                    ],
+                    "id": 1388,
+                    "name": "Return",
+                    "src": "1003:46:4"
+                  }
+                ],
+                "id": 1389,
+                "name": "Block",
+                "src": "996:59:4"
+              }
+            ],
+            "id": 1390,
+            "name": "FunctionDefinition",
+            "src": "873:182:4"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "getEmployeeBySkillName",
+              "scope": 1407,
+              "stateMutability": "view",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "_name",
+                      "scope": 1406,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 1391,
+                        "name": "ElementaryTypeName",
+                        "src": "1093:6:4"
+                      }
+                    ],
+                    "id": 1392,
+                    "name": "VariableDeclaration",
+                    "src": "1093:19:4"
+                  },
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "emp_index",
+                      "scope": 1406,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 1393,
+                        "name": "ElementaryTypeName",
+                        "src": "1114:7:4"
+                      }
+                    ],
+                    "id": 1394,
+                    "name": "VariableDeclaration",
+                    "src": "1114:17:4"
+                  }
+                ],
+                "id": 1395,
+                "name": "ParameterList",
+                "src": "1092:40:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 1406,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "nonpayable",
+                          "type": "address"
+                        },
+                        "id": 1396,
+                        "name": "ElementaryTypeName",
+                        "src": "1169:7:4"
+                      }
+                    ],
+                    "id": 1397,
+                    "name": "VariableDeclaration",
+                    "src": "1169:7:4"
+                  }
+                ],
+                "id": 1398,
+                "name": "ParameterList",
+                "src": "1168:9:4"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 1398
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "type": "address"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "type": "address[] storage ref"
+                            },
+                            "children": [
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 1291,
+                                  "type": "mapping(string memory => address[] storage ref)",
+                                  "value": "skillmap"
+                                },
+                                "id": 1399,
+                                "name": "Identifier",
+                                "src": "1195:8:4"
+                              },
+                              {
+                                "attributes": {
+                                  "argumentTypes": null,
+                                  "overloadedDeclarations": [
+                                    null
+                                  ],
+                                  "referencedDeclaration": 1392,
+                                  "type": "string memory",
+                                  "value": "_name"
+                                },
+                                "id": 1400,
+                                "name": "Identifier",
+                                "src": "1204:5:4"
+                              }
+                            ],
+                            "id": 1401,
+                            "name": "IndexAccess",
+                            "src": "1195:15:4"
+                          },
+                          {
+                            "attributes": {
+                              "argumentTypes": null,
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 1394,
+                              "type": "uint256",
+                              "value": "emp_index"
+                            },
+                            "id": 1402,
+                            "name": "Identifier",
+                            "src": "1211:9:4"
+                          }
+                        ],
+                        "id": 1403,
+                        "name": "IndexAccess",
+                        "src": "1195:26:4"
+                      }
+                    ],
+                    "id": 1404,
+                    "name": "Return",
+                    "src": "1188:33:4"
+                  }
+                ],
+                "id": 1405,
+                "name": "Block",
+                "src": "1181:46:4"
+              }
+            ],
+            "id": 1406,
+            "name": "FunctionDefinition",
+            "src": "1061:166:4"
+          }
+        ],
+        "id": 1407,
+        "name": "ContractDefinition",
+        "src": "68:1162:4"
+      }
+    ],
+    "id": 1408,
+    "name": "SourceUnit",
+    "src": "33:1197:4"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x0cE36fEfC89F7A899aA1CF2b689e88Fa10AC7ae2",
+      "transactionHash": "0x32587b2cceefd7c96e1a92ca76db6c0753889c837d20f4d6508c64b3adde1dba"
+    }
+  },
+  "schemaVersion": "3.4.13",
+  "updatedAt": "2023-05-22T14:23:32.710Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
