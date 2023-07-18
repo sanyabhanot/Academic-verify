@@ -1,0 +1,112 @@
+.norole {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .norole > .card-style {
+    background: #1e2022ea !important;
+    border-radius: 7px !important;
+    color: #c5c6c7 !important;
+    min-width: 360px;
+    border: 1px solid white !important;
+    box-shadow: 0px 0px 2px 0px white !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  
+  .card-heading {
+    font-family: "Arvo", serif !important;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .norole-heading-subtext {
+    color: #c5c6c7;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .horizontal-line {
+    border: none;
+    border-top: 2px solid white;
+  }
+  
+  .form-inputs-admin > input,
+  .form-inputs-admin > textarea {
+    border-radius: 7px !important;
+    background: #1e2022ea !important;
+    border: 1px solid white !important;
+    box-shadow: 0px 0px 1px 0px white !important;
+    color: white !important;
+  }
+  
+  .form-inputs-admin > input::placeholder,
+  .form-inputs-admin > textarea::placeholder {
+    color: white !important;
+    opacity: 0.7;
+  }
+  
+  .form-inputs-admin > input::selection {
+    color: white !important;
+  }
+  
+  .form-inputs-admin > input:focus {
+    box-shadow: 0px 0px 2px 0px white !important;
+  }
+  
+  .ui.selection.dropdown {
+    border-radius: 7px !important;
+    background: #1e2022ea !important;
+    border: 1px solid white !important;
+    box-shadow: 0px 0px 1px 0px white !important;
+    color: white !important;
+  }
+  
+  .ui.default.dropdown:not(.button) > .text,
+  .ui.dropdown:not(.button) > .default.text {
+    color: white !important;
+  }
+  
+  .ui.selection.active.dropdown .menu {
+    background: #1e2022ea !important;
+    color: white !important;
+    border-bottom-left-radius: 7px !important;
+    border-bottom-right-radius: 7px !important;
+    box-shadow: 0px 0px 1px 0px white !important;
+  }
+  
+  .ui.selection.dropdown .menu > .item {
+    color: white !important;
+    border-top: 1px solid white !important;
+  }
+  
+  .ui.dropdown .menu .selected.item,
+  .ui.dropdown.selected {
+    color: #1e2022ea !important;
+    background: white !important;
+  }
+  
+  .ui.selection.visible.dropdown > .text:not(.default) {
+    color: white !important;
+  }
+  
+  .button-holder {
+    text-align: center;
+  }
+  
+  .button-css-admin {
+    border-radius: 10px !important;
+    color: white !important;
+    background: #1e2022ea !important;
+    border: 2px solid white !important;
+    box-shadow: 0px 0px 2px 0px white !important;
+    text-align: center;
+  }
+  
+  .button-css-admin:hover {
+    background: white !important;
+    color: #1e2022ea !important;
+  }

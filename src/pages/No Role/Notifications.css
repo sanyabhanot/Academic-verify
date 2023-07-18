@@ -1,0 +1,45 @@
+.sidechat-container {
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  
+  .notifications {
+    background: rgba(31, 30, 30, 0.581);
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80vh;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: inset 0 0 3px 0 white;
+  }
+  
+  .sidechat-body {
+    overflow: auto !important;
+  }
+  
+  .notification-sidechat {
+    color: white !important;
+  }
+  
+  .notification-sidechat-subheading {
+    color: #c5c6c7 !important;
+  }
+  
+  .header-row > th {
+    border-bottom: 1px solid white !important;
+  }
+  
+  .row-cell-container {
+    cursor: pointer;
+  }
+  
+  .header-row-cell {
+    border-bottom: 1px solid #c5c6c7 !important;
+  }
+  
+  .row-cell-container :hover {
+    transform: scale(1.01, 1.01);
+    background: rgba(31, 30, 30, 0.1);
+  }
