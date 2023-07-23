@@ -1,1 +1,3 @@
-# Academic-verify
+-Abstract
+
+Recently, blockchain technology has gained considerable attention from researchers and practitioners. This is mainly due to its unique features including decentralization, security, reliability, and data integrity. The current centralized educational data management system results in problems like malicious tampering, low cost of diploma fabrication, and high cost of certificate and identity verification. The art of decentralized blockchain technology can be applied to solve these problems and many more. Blockchain provides a creative approach to storing information, executing transactions, conducting tasks, and building trust. In this project, we tried to solve the shortcomings of the existing centralized and manual systems and propose a blockchain-based framework for secure and reliable student's record management.
