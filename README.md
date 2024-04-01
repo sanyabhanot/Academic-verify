@@ -39,11 +39,26 @@ the blockchain.
 
 # Implementation
 
-### Home Screen
+### 1. Home Screen
 
 ![home1](https://github.com/sanyabhanot/Academic-verify/assets/111521883/e9cf1026-bd01-4336-ba9b-bc3c6a4e01eb)
 
 ![home2](https://github.com/sanyabhanot/Academic-verify/assets/111521883/5e7d63ab-fe1a-4e4a-97ea-312454583ddf)
+
+### 2. Admin Page 
+
+![image](https://github.com/sanyabhanot/Academic-verify/assets/111521883/7e987183-2dd8-40f4-999b-393115df552d)
+
+### 3. Register New User using Metamask
+
+![2024-04-01 (1)](https://github.com/sanyabhanot/Academic-verify/assets/111521883/28a84fb3-cd74-4156-ae78-24f70fa9afca)
+![2024-04-01 (2)](https://github.com/sanyabhanot/Academic-verify/assets/111521883/29bbc566-36b0-477b-8094-3d56f26aa5cb)
+
+### 4. Registered Users and Endorsers
+
+![2024-04-01 (3)](https://github.com/sanyabhanot/Academic-verify/assets/111521883/c5af8dd7-cb2f-47a1-acf4-3f2dd785a09d)
+![2024-04-01 (4)](https://github.com/sanyabhanot/Academic-verify/assets/111521883/c1fc066e-ec18-495d-8831-e449fa499312)
+
 
 # Results and Analysis
 
